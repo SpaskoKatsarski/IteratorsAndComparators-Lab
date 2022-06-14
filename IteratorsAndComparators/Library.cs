@@ -20,7 +20,7 @@ namespace IteratorsAndComparators
             //Books.Sort();
             for (int i = 0; i < Books.Count; i++)
             {
-                yield return Books[i];  
+                yield return Books[i];
             }
         }
 

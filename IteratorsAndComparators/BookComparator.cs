@@ -13,7 +13,7 @@ namespace IteratorsAndComparators
 
             if (result == 0)
             {
-                result = y.Year.CompareTo(x.Year);
+                return - x.Year.CompareTo(y.Year);
             }
 
             return result;
